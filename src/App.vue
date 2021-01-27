@@ -1,28 +1,61 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navbar />
+    <router-view id="content" />
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navbar,
+    Footer
+  },
+  metaInfo: {
+    title: 'Qui vote quoi ?',
   }
 }
 </script>
 
-<style>
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+h1 {
+  font-weight: bold !important;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Titillium Web', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+#content {
+  margin: 40px 0 100px 0;
+}
+
+.section {
+  text-align: left;
+  h2 {
+    margin-top: 30px;
+  }
+}
+
+.bg-nouvelliste {
+  background-color: #cc0404 !important;
+}
+
+.text-nouvelliste {
+  color: #cc0404 !important;
+}
+
+.border-nouvelliste {
+  border-color: #cc0404 !important;
 }
 </style>
