@@ -1,6 +1,6 @@
 <template>
     <b-input-group>
-        <b-form-input type="text" placeholder="Rechercher un terme..." v-model="query" />
+        <b-form-input type="text" placeholder="Rechercher un terme..." v-model="query" v-on:keyup.enter="$emit('search', query)" />
         <b-input-group-append>
             <b-button variant="danger" class="bg-nouvelliste" @click="$emit('search', query)">
                 <font-awesome-icon icon="search" class="mr-2" />
