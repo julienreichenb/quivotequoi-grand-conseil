@@ -23,7 +23,7 @@ export default {
     VoteSelection,
   },
   metaInfo: {
-    titleTemplate: 'Accueil | %s'
+    title: 'Accueil'
   }
 }
 </script>

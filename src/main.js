@@ -15,6 +15,8 @@ import {
 import { BootstrapVue } from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+/* Apex Charts */
+import VueApexCharts from 'vue-apexcharts'
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.component('font-awesome-layers', FontAwesomeLayers)
@@ -23,6 +25,9 @@ Vue.use(BootstrapVue)
 Vue.use(VueMeta, {
   refreshOnceOnNavigation: true
 })
+
+Vue.use(VueApexCharts)
+Vue.component('apexchart', VueApexCharts)
 
 Vue.config.productionTip = false
 

@@ -1,8 +1,8 @@
 <template>
-    <b-container fluid class="mb-5">
+    <b-container fluid :class="'mb-' + marginBottom">
         <div class="custom-header p-3 rounded text-light" :class="'bg-' + variant">
             <h1 class="text-uppercase">{{ title }}</h1>
-            <h3>{{ text }}</h3>
+            <h3 v-html="text" />
         </div>
     </b-container>
 </template>
@@ -13,6 +13,7 @@ export default {
         variant: { type: String, default: 'dark '},
         title: { type: String, required: true },
         text: { type: String, default: '' },
+        marginBottom: { type: String, default: '5' },
     }
 }
 </script>

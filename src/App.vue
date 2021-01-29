@@ -16,7 +16,10 @@ export default {
     Footer
   },
   metaInfo: {
-    title: 'Qui vote quoi ?',
+    titleTemplate(title) {
+      const suffix = "Qui Vote Quoi ?"
+      return title ? `${title} | ${suffix}` : suffix
+    },
   }
 }
 </script>

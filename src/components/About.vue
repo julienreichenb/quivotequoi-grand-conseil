@@ -19,6 +19,9 @@ import Header from './utils/Header'
 export default {
   components: {
     Header,
+  },    
+  metaInfo: {
+      title: 'À propos'
   }
 }
 </script>

@@ -72,7 +72,7 @@ export default {
                     label: 'Date et heure',
                     sortable: true,
                     formatter: (value) => {
-                        return moment(value).format('DD.MM.YYYY HH:MM')
+                        return moment(value).format('DD.MM.YYYY HH:mm')
                     },
                 },
             ]
@@ -98,7 +98,7 @@ export default {
         }
     },
     metaInfo: {
-        titleTemplate: 'Historique des votes | %s'
+        title: 'Historique des votes'
     }
 }
 </script>

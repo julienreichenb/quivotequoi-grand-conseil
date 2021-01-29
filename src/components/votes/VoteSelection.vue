@@ -12,7 +12,7 @@
                 <h3>{{ votes.section }}</h3>
                 <h6>{{ votes.date }}</h6>
             </b-card-header>
-            <router-link v-for="vote in votes.votes" :key="vote.timeStart" :to="'/vote/' + vote.startTime">
+            <router-link v-for="vote in votes.votes" :key="vote.timeStart" :to="'/vote/' + vote.affair">
                 <b-card-body>
                     <p class="lead text-dark">
                         <font-awesome-icon icon="vote-yea" class="mr-3" />
