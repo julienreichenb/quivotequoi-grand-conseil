@@ -79,7 +79,7 @@ export default {
         }
     },
     created() {
-        d3.csv('/votes/Tous votes Constituante - Sheet1.csv').then((data) => {
+        d3.csv('/votes/AllVotes.csv').then((data) => {
             data.map((v) => {
                 v.result = parseInt(v.numYes) * 100 / (parseInt(v.numYes) + parseInt(v.numNo))
             })

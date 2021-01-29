@@ -1,6 +1,6 @@
 <template>
   <b-row id="footer" class="border-top border-secondary bg-white text-center py-2 fixed-bottom">
-      <b-col sm="3" class="px-5">
+      <b-col sm="6" class="px-5 text-left">
           <span class="text-muted small">© {{ today }} Qui vote quoi - HES-SO Valais/Wallis</span>
       </b-col>
       <b-col class="px-5 text-right">

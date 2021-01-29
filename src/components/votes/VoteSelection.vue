@@ -12,7 +12,7 @@
                 <h3>{{ votes.section }}</h3>
                 <h6>{{ votes.date }}</h6>
             </b-card-header>
-            <router-link v-for="vote in votes.votes" :key="vote.timeStart" :to="'/vote/' + vote.affair">
+            <router-link v-for="vote in votes.votes" :key="vote.timeStart" :to="'/vote/' + vote.affairVoteId">
                 <b-card-body>
                     <p class="lead text-dark">
                         <font-awesome-icon icon="vote-yea" class="mr-3" />
@@ -37,7 +37,7 @@ export default {
         }
     },
     created() {
-        d3.csv('/votes/Tous votes Constituante - Sheet1.csv').then((data) => {
+        d3.csv('/votes/AllVotes.csv').then((data) => {
             this.votes = data.filter(d => d.affair)
             this.sections = [...new Set(this.votes.map((v) => v.section))]
             this.groupedVotes = []

@@ -1,0 +1,12 @@
+,filename,startTime,endTime,label,affairVoteId,meaningYes,meaningNo,meaningYesText,meaningNoText,numYes,numNo,numAbst,affair,section,note,warning,linkVideo,attachment
+0,Vote _2019-12-13_15-19-50.xlsx,2019-12-13 15:19:50,2019-12-13 15:20:06,1.4.2001,20191213151950,Accepter,Refuser,Lorem Ipsum Yes,Lorem Ipsum No,112,9,0,Affair Example,Section Example ,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec blandit sapien ac vestibulum molestie. Aliquam sed aliquet orci. Pellentesque laoreet urna vitae efficitur tempor. Suspendisse ex augue, imperdiet nec ex ut, vehicula tempor neque. <p>Nunc scelerisque dui eget posuere iaculis. Phasellus sodales massa vitae lorem viverra ultrices. In egestas dignissim nisi id convallis. In rhoncus aliquam felis at finibus. Maecenas cursus auctor dolor ut scelerisque.</p>",Attention !,,
+1,Vote _2019-12-13_15-42-11.xlsx,2019-12-13 15:42:11,2019-12-13 15:42:28,1.8.2007,20191213154211,Accepter,Refuser,,,93,26,0,,,,,,
+2,Vote _2019-12-13_15-49-41.xlsx,2019-12-13 15:49:41,2019-12-13 15:49:58,7.0.1,20191213154941,Accepter,Refuser,,,107,13,0,,,,,,
+3,Vote _2019-12-13_15-52-23.xlsx,2019-12-13 15:52:23,2019-12-13 15:52:40,Réouverture 4.2.2 / Wiederaufnahme 4.2.2,20191213155223,Accepter,Refuser,,,60,61,0,,,,,,
+4,Vote _2019-12-13_15-54-6.xlsx,2019-12-13 15:54:06,2019-12-13 15:54:23,Réouverture 2.1.3 / Wiederaufnahme 2.1.3,20191213155406,Accepter,Refuser,,,71,48,4,,,,,,
+5,Vote _2019-12-13_15-58-30.xlsx,2019-12-13 15:58:30,2019-12-13 15:58:47,2.1.2003,20191213155830,Accepter,Refuser,,,124,0,0,,,,,,
+6,Vote _2019-12-13_16-50-4.xlsx,2019-12-13 16:50:04,2019-12-13 16:50:21,P1.0307,20191213165004,Accepter,Refuser,,,25,97,1,,,,,,
+7,Vote _2019-12-13_17-16-15.xlsx,2019-12-13 17:16:15,2019-12-13 17:16:32,P1.0311,20191213171615,Accepter,Refuser,,,111,8,3,,,,,,
+8,Vote _2019-12-13_17-16-52.xlsx,2019-12-13 17:16:52,2019-12-13 17:17:09,P1.0312,20191213171652,Accepter,Refuser,,,67,54,1,,,,,,
+9,Vote _2019-12-13_18-17-59.xlsx,2019-12-13 18:17:59,2019-12-13 18:18:16,Vote final: budget 2020 de l'Etat / Schlussabstimmung Budget Staat Wallis,20191213181759,Accepter,Refuser,,,115,0,1,,,,,,
+10,Vote _2019-12-13_18-19-27.xlsx,2019-12-13 18:19:27,2019-12-13 18:19:44,Vote final: budget 2020 FIGI / Schlussabstimmung Budget FIGI,20191213181927,Accepter,Refuser,,,115,0,1,,,,,,
